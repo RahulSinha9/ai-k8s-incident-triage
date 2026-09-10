@@ -53,6 +53,20 @@ def version() -> dict:
     }
 
 
+@app.get("/api/v1/info")
+def api_info() -> dict:
+    """Return API capabilities."""
+    return {
+        "service": settings.app_name,
+        "version": "1.0.0",
+        "features": [
+            "kubernetes-triage",
+            "incident-analysis",
+            "prometheus-metrics",
+        ],
+    }
+
+
 @app.get("/metrics")
 def metrics() -> Response:
     """Expose Prometheus metrics."""
