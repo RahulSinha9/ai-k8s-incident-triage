@@ -1,4 +1,4 @@
-# AI Kubernetes Incident Triage 🤖☸️
+# AI Kubernetes Incident Triage ☸️
 
 [![CI](https://github.com/RahulSinha9/ai-k8s-incident-triage/actions/workflows/ci.yml/badge.svg)](https://github.com/RahulSinha9/ai-k8s-incident-triage/actions/workflows/ci.yml)
 
