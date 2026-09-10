@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from kubernetes.client.exceptions import ApiException
+from kubernetes.config.config_exception import ConfigException
 from prometheus_client import Counter, generate_latest
 from starlette.responses import Response
 
