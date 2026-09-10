@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ai-k8s-incident-triage
+  namespace: ai-k8s-triage
+data:
+  LOG_TAIL_LINES: "200"
+  RESTART_WARNING_THRESHOLD: "3"
+  RESTART_CRITICAL_THRESHOLD: "10"
